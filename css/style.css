@@ -1,0 +1,171 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0px;
+}
+
+body {
+  background-size: 15px 15px;
+  background-image:
+    linear-gradient(to right, rgb(185, 185, 185) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(185, 185, 185) 1px, transparent 1px);
+  background-color: rgb(227, 227, 227);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  pointer-events: none;
+}
+
+.prevent-select {
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+}
+
+.container-fluid,
+.container {
+  padding: 0px;
+}
+
+.row {
+  margin: 0px;
+}
+
+.homepageContainer {
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.homepageBg {
+  position: relative;
+}
+
+.profile-img {
+  width: 150px;
+  position: absolute;
+  top: 105px;
+  left: 80px;
+  border: 2px dotted darkgray;
+  border-radius: 15px;
+}
+
+.homepageTitle {
+  font-family: "Pixelify Sans", sans-serif;
+  position: absolute;
+  top: 30px;
+  left: 65px;
+}
+
+.audioPlayerContainer {
+  position: absolute;
+  width: 500px;
+  top: 26px;
+  left: 350px;
+  border-radius: 25px;
+  height: 40px;
+}
+
+.audioPlayer {
+  width: 450px;
+
+}
+
+.btn-container {
+  position: absolute;
+  top: 120px;
+  left: 873px;
+}
+
+.btn-blue {
+  font-family: "Pixelify Sans", sans-serif;
+  width: 90px;
+  color: white;
+  background-color: dodgerblue;
+  padding: 5px 10px;
+  border: 2px dotted white;
+  border-left-style: none;
+}
+
+.btn-blue:hover {
+  color: white;
+  transition: 300ms;
+  padding-left: 15px;
+}
+
+.btn-blue-active {
+  font-family: "Pixelify Sans", sans-serif;
+  width: 90px;
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  border: 2px dotted darkgray;
+  border-left-style: none;
+}
+
+.btn-blue-active:hover {
+  color: black;
+  background-color: white;
+}
+
+.roon-container {
+  position: absolute;
+  border: 2px dotted darkgray;
+  background-color: white;
+  top: 245px;
+  left: 350px;
+  width: 500px;
+  height: 320.150px;
+  background-image: url("../img/room.png");
+  background-position: center center;
+  background-size: contain;
+  border-radius: 15px;
+}
+
+.avatar {
+  position: absolute;
+  left: 205px;
+  top: 116px;
+  width: 60px;
+}
+
+.blackCat {
+  position: absolute;
+  width: 50px;
+  left: 330px;
+  top: 152px;
+}
+
+.kittyCat {
+  position: absolute;
+  width: 60px;
+  left: 223px;
+  top: 212px;
+}
+
+.lightBulb {
+  position: absolute;
+  width: 40px;
+  left: 215px;
+  top: 74px;
+}
+
+.coin {
+  position: absolute;
+  width: 60px;
+  left: 120px;
+  top: 220px;
+}
